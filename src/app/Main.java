@@ -24,7 +24,7 @@ public class Main {
            System.out.println("Your choice: " + choice);
 
            switch (choice) {
-               case "1"
+               case "0" -> running = false;
            }
        }
 
