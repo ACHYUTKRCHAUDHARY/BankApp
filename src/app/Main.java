@@ -25,6 +25,7 @@ public class Main {
 
            switch (choice) {
                case "0" -> running = false;
+               case "1"
            }
        }
 

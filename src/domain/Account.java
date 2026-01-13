@@ -4,10 +4,10 @@ public class Account {
     private long accountNumber;
     private String accountName;
     private double balance;
-    private long customerID;
+    private String customerID;
     private String accountType;
 
-    public Account(long accountNumber, String accountName, double balance, long customerID, String accountType) {
+    public Account(long accountNumber, String accountName, double balance, String customerID, String accountType) {
         this.accountNumber = accountNumber;
         this.accountName = accountName;
         this.balance = balance;
@@ -28,13 +28,10 @@ public class Account {
         return balance;
     }
 
-    public long getCustomerID() {
+    public String getCustomerID() {
         return customerID;
     }
 
-    public Type getType() {
-        this.
-    }
     public String getAccountType() {
         return accountType;
     }
@@ -54,7 +51,7 @@ public class Account {
         this.balance = balance;
     }
 
-    public void setCustomerID(long customerID) {
+    public void setCustomerID(String customerID) {
         this.customerID = customerID;
     }
 }
